@@ -1,0 +1,392 @@
+*{
+	margin: 0;padding: 0;list-style: none;font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+.clearFix:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	content: '';
+}
+
+.clearFix {
+	zoom: 1;
+}
+
+/*----------导航----------*/
+.nav{
+	width: 100%;
+	height: 35px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+}
+.nav-box{
+	width: 1200px;
+	height: 35px;
+	margin: 0 auto;
+}
+.nav .nav-box-right{
+	float: right;
+}
+.nav .nav-box-right ul li{
+	float: left;
+	margin-left: 10px;
+	color: #808080;
+	font-size: 12px;
+	line-height: 35px;
+}
+.nav .nav-box-right ul li img{
+	margin-top: 7px;
+}
+.nav .nav-box-right ul li a{
+	color: #808080;
+	font-size: 12px;
+}
+.nav .nav-box-right ul li a:hover{
+	color: #b71a21;
+}
+
+/*----------bar----------*/
+.bar{
+	width: 1200px;
+	height: 82px;
+	margin: 0 auto;
+	position: relative;
+}
+.bar .bar-box{
+	margin-top: 30px;
+	right: 0;
+	position: absolute;
+}
+.bar .bar-box input{
+	width: 261px;
+	height: 29px;
+	float: left;
+}
+.bar .bar-box button{
+	width: 49px;
+	height: 33px;
+	border: none;
+	background: #B71A21;
+	color: #fff;
+	float: left;
+}
+.bar .bar-box .guc{
+	width: 107px;
+	height: 33px;
+	background: #B71A21;
+	margin-left: 330px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+}
+.bar .bar-box .ipt-x ul li{
+	float: left;
+	color: #727271;	
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.ipt-x ul li a{
+	color: #727271;	
+	font-size: 12px;
+}
+
+/*----------banner----------*/
+.banner-top{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner-top img{
+	float: left;
+}
+.banner-top .banner-nav ul{
+	margin-top: 24px;
+	float: right;
+}
+.banner-top .banner-nav ul li{
+	float: left;
+	color: #888;
+	width: 100px;
+	text-align: center;
+	position: relative;
+	border-right: 1px solid #888888;
+}
+.banner-top .banner-nav ul li a{
+	color: #000000;
+}
+.banner-top .banner-nav ul li a:hover{
+	color: #B71A21;
+}
+
+
+
+.banner-top .li-box{
+	position: absolute;
+	z-index: 1;
+	width: 98px;
+	height: 0;
+	background: #fff;
+	/*padding: 15px 0;*/
+	transition: height 0.5s;
+	overflow: hidden;
+}
+.banner-top .li-box p{
+	text-align: center;
+	height: 50px;
+	line-height: 40px;
+}
+.banner-top .li-box hr{
+	margin: 0;
+	margin-top: -10px;
+	border-bottom: 5px solid #B71A21;
+}
+.banner-top .banner-nav ul li:hover .li-box{
+	height: 300px;
+}
+
+
+
+
+/*----------banner----------*/
+.banner{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.box {
+		position: relative;
+		width: 1200px;
+		overflow: hidden;
+	}
+	
+	.banner-box {
+		width: 7200px;
+		height: 535px;
+	}
+	
+	.banner-box li {
+		float: left;
+	}
+	
+	.banner li img {
+		width: 1200px;
+		height: 535px;
+	}
+	
+	
+	.bot-box {
+		position: absolute;
+		left: 50%;
+		bottom: 30px;
+		width: 150px;
+		margin-left: -68px;
+	}
+	
+	.bot-box li {
+		float: left;
+		width: 12px;
+		height: 12px;
+		margin: 0 6px;
+		background: #333333;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	
+	.bot-box li.active {
+		background: #CCCCCC;
+	}
+	
+	.btn-l,
+	.btn-r {
+		position: absolute;
+		top: 50%;
+		height: 60px;
+		margin-top: -30px;
+		font-size: 48px;
+		font-family: "宋体";
+		cursor: pointer;
+	}
+	
+	.btn-l {
+		left: 10px;
+	}
+	
+	.btn-r {
+		right: 10px;
+	}
+
+/*-----------*/
+.img1{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+/*----------content----------*/
+.content-1{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.content-1-box-1{
+	margin-top: 20px;
+}
+.content-1 .christmas-bk01{
+	float: left;
+}
+.content-1-box-1 ul{
+	width: 290px;
+	float: left;
+}
+.content-1 .christmas-bk01 p{
+	font-size: 14px;
+	line-height: 70px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	margin-top: -5px;
+}
+.content-1 .christmas-bk01 p span{
+	float: right;
+	color: #B71A21;
+}
+.content-1 .christmas-bk02{
+	float: left;
+	margin-left: 17px;
+	margin-bottom: 10px;
+}
+.content-1 .christmas-bk02 p{
+	font-size: 14px;
+	line-height: 70px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	margin-top: -5px;
+}
+.content-1 .christmas-bk02 p span{
+	float: right;
+	color: #B71A21;
+}
+.content-1 .christmas-bk04{
+	float: left;
+	margin-left: 31px;
+}
+.content-1 .christmas-bk04 p{
+	font-size: 14px;
+	line-height: 70px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	margin-top: -5px;
+}
+.content-1 .christmas-bk04 p span{
+	float: right;
+	color: #B71A21;
+}
+
+/*----------content-2----------*/
+.content-2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content-2 ul li{
+	float: left;
+	margin-left: 12px;
+}
+.content-2 ul li p{
+	font-size: 14px;
+	line-height: 70px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	margin-top: -5px;
+}
+
+/*----------foot----------*/
+.foot{
+	width: 1200px;
+	height: 282px;
+	border: 1px solid #CCCCCC;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 0 40px;
+}
+.foot ul li{
+	float: left;
+	width: 371px;
+	height: 138px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 20px;
+	border-right: 1px solid #CCCCCC;
+}
+.foot ul li img{
+	width: 100px;
+}
+.foot ul li p button{
+	width: 155px;
+	height: 32px;
+	border: none;
+	background: #B71A21;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+.foot ul li p{
+	color: #888888;
+	margin-top: 15px;
+}
+.foot ul li p span{
+	color: #B71A21;
+}
+.foot-gy{
+	height: 60px;
+	background: #f8f8f8;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.foot-gy ul li{
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: end;
+	margin: 0;
+	border: none;
+	margin: 0 34px;
+	line-height: 60px;
+	color: #dadada;
+}
+.foot-gy ul li a{
+	color: #323232;
+	font-size: 14px;
+}
+
+hr{
+	border: 1px solid #000;
+	margin-top: 30px;
+}
+
+/*----------jiao----------*/
+.jiao{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.jiao p{
+	color: #323232;
+	font-size: 12px;
+	padding: 5px 0;
+}
+.jiao img{
+	margin-top: 20px;
+}
